@@ -1,0 +1,501 @@
+.profile {
+  padding-top: 57px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+}
+
+.front {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.front img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 0px 10px 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.edit {
+  position: absolute;
+  bottom: 5%;
+  right: 4%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 10px;
+  background-color: #ffff;
+  border-radius: 5px;
+  gap: 8px;
+  font-family: "LucidaGrande";
+}
+
+.edit img {
+  width: 22px;
+  height: 22px;
+}
+
+.edit:hover {
+  background-color: rgb(238, 232, 232);
+}
+
+.perfil {
+  position: absolute;
+  bottom: -38%;
+  left: 3%;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: solid white 4px;
+}
+
+.perfil img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.addPerfil {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e6eb;
+}
+
+.addPerfil:hover {
+  background-color: #cdcfd4;
+}
+
+.addPerfil img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+  border-radius: 100px;
+  background-color: #e4e6eb;
+}
+
+.perfil:hover {
+  filter: brightness(0.9);
+}
+
+.textsProfile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 0px 30px 0px;
+  width: 75%;
+  margin-left: 250px;
+}
+
+.textsProfile h1 {
+  font-family: "LucidaGrande";
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.textsProfile p {
+  font-family: "LucidaGrande";
+  margin: 8px 0px;
+  font-size: 17px;
+  font-weight: bold;
+  color: gray;
+}
+
+.containerFriends {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  position: relative;
+  width: auto;
+}
+.containerImages1 {
+  position: relative;
+  z-index: 1;
+  left: 80%;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border: 3px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.containerImages2 {
+  position: absolute;
+  z-index: 2;
+  left: 160%;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border: 3px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.containerImages3 {
+  position: absolute;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border: 3px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.containerImages1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.containerImages2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.containerImages3 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.containerButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.agg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b74e4;
+  padding: 3px 10px;
+  border-radius: 8px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.agg:hover {
+  background-color: #1b67c4;
+}
+
+.agg p {
+  color: white;
+  font-weight: 400;
+  font-family: "LucidaGrande";
+}
+
+.agg img {
+  height: 20px;
+  width: 20px;
+  border-radius: 100px;
+}
+
+.lapiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e6eb;
+  font-family: "LucidaGrande";
+  padding: 3px 10px;
+  border-radius: 8px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.lapiz:hover {
+  background-color: #b8bcc5;
+}
+
+.lapiz img {
+  height: 30px;
+  width: 30px;
+}
+
+.lapiz p {
+  color: black;
+  font-weight: 400;
+  font-family: "LucidaGrande";
+}
+
+@media screen and (max-width: 940px) {
+  .profile {
+    padding-top: 57px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .front {
+    display: flex;
+    width: 100%;
+    height: 23vh;
+    position: relative;
+  }
+
+  .front img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .edit {
+    position: absolute;
+    bottom: 10%;
+    right: 9%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 12px;
+    background-color: #ffff;
+    border-radius: 5px;
+    gap: 8px;
+    font-family: "LucidaGrande";
+  }
+
+  .edit img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .edit h3 {
+    display: none;
+  }
+
+  .perfil {
+    position: absolute;
+    top: 9.5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    cursor: pointer;
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    border: solid white 4px;
+  }
+
+  .perfil img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+
+  .addPerfil {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 8rem;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e6eb;
+  }
+
+  .addPerfil:hover {
+    background-color: #cdcfd4;
+  }
+
+  .addPerfil img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    border-radius: 100px;
+    background-color: #e4e6eb;
+  }
+
+  .perfil:hover {
+    filter: brightness(0.9);
+  }
+
+  .textsProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0px 30px 0px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .textsProfile h1 {
+    font-family: "LucidaGrande";
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .textsProfile p {
+    font-family: "LucidaGrande";
+    margin: 4px 0px 7px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+  }
+
+  .containerFriends {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .row {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .containerImages1 {
+    position: relative;
+    z-index: 2;
+    left: 10%;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border: 3px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  .containerImages2 {
+    position: absolute;
+    z-index: 0;
+    left: 34%;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border: 3px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  .containerImages3 {
+    position: absolute;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border: 3px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  .containerImages1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+
+  .containerImages2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+
+  .containerImages3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+
+  .containerButtons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .agg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b74e4;
+    padding: 3px 10px;
+    border-radius: 8px;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .agg:hover {
+    background-color: #1b67c4;
+  }
+
+  .agg p {
+    color: white;
+    font-weight: 400;
+    font-family: "LucidaGrande";
+  }
+
+  .agg img {
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+  }
+
+  .lapiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e6eb;
+    font-family: "LucidaGrande";
+    padding: 3px 10px;
+    border-radius: 8px;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .lapiz:hover {
+    background-color: #b8bcc5;
+  }
+
+  .lapiz img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .lapiz p {
+    color: black;
+    font-weight: 400;
+    font-family: "LucidaGrande";
+  }
+}

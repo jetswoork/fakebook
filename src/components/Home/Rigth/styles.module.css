@@ -1,0 +1,112 @@
+.rigth {
+  height: 100%;
+  padding-bottom: 70px;
+  margin-top: 57px;
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  position: fixed;
+  font-family: "LucidaGrande";
+}
+
+.rigth:hover {
+  overflow-y: scroll;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  margin-top: 25px;
+  margin-bottom: 7px;
+}
+
+.info span {
+  padding-left: 10px;
+  font-size: 17px;
+  font-family: "LucidaGrandeBold";
+  color: #65676b;
+}
+
+.containerImg {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.info img {
+  height: 16px;
+  width: 16px;
+}
+
+.containerImg:hover {
+  background-color: #e4e6e9;
+}
+
+.page {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 20px 10px 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.page:hover {
+  background-color: #e4e6e9;
+}
+
+.page img {
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.promo {
+  padding: 10px 0px 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  gap: 15px;
+}
+
+.promo img {
+  height: 22px;
+  width: 22px;
+}
+
+.promo:hover {
+  background-color: #e4e6e9;
+}
+
+.info2 {
+  display: flex;
+}
+
+.abso {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: #2f9a48;
+  bottom: 10px;
+  border: 1px solid white;
+  left: 2.3rem;
+}
+
+@media screen and (max-width: 850px) {
+  .rigth {
+    display: none;
+  }
+}

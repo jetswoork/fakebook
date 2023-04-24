@@ -1,0 +1,78 @@
+.left {
+  height: 100%;
+  padding-left: 15px;
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  position: fixed;
+  background-color: #f0f2f5;
+  padding-bottom: 10px;
+}
+
+.left span {
+  padding-left: 10px;
+  font-size: 17px;
+  font-family: "LucidaGrandeBold";
+  color: #65676b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.left:hover {
+  overflow-y: scroll;
+}
+
+.profile {
+  margin-top: 15px;
+  padding: 10px 0px 10px 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  gap: 15px;
+}
+
+.profile:hover {
+  background-color: #e4e6e9;
+}
+
+.profile img {
+  border-radius: 100px;
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+}
+
+.name {
+  padding: 10px 0px 10px 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  gap: 15px;
+}
+
+.name:hover {
+  background-color: #e4e6e9;
+}
+
+.name img {
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+
+.footer {
+  margin: 15px 0;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .left {
+    display: none;
+  }
+}

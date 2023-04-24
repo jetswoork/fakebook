@@ -1,0 +1,49 @@
+.containerComents {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 2px;
+}
+
+.containerComents img {
+  border-radius: 100px;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+}
+
+.containerTexts {
+  background-color: #f0f2f5;
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+  max-width: 500px;
+
+  margin-top: 5px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.containerTexts p {
+  font-family: "Lucida";
+  /* font-size: 16px; */
+  color: #4a4a4a;
+}
+
+b {
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .containerTexts {
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    max-width: 270px;
+
+    margin-top: 5px;
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+}

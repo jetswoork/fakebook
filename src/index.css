@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "LucidaGrande";
+  src: local("LucidaGrande"), url("./fonts/LucidaGrande.ttf") format("trueType");
+}
+
+@font-face {
+  font-family: "LucidaGrandeBold";
+  src: local("LucidaGrandeBold"),
+    url("./fonts/LucidaGrandeBold.ttf") format("trueType");
+}
+
+@font-face {
+  font-family: "Lucida";
+  src: local("Lucida"), url("./fonts/Lucida.ttf") format("trueType");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h3 {
+  color: #2c2d2e;
+  font-size: 15px;
+  /* font-weight: 400; mejora bastante */
+  font-family: "LucidaGrande";
+}
+
+p {
+  font-family: "helvetica";
+  font-size: 13px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+}
+
+/* estilos modal /*
+
+/* Modal */
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 9999;
+}
+
+.modal-fondo {
+  background-color: rgba(175, 177, 177, 0.658);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.modal {
+  background: white;
+  border-radius: 5px;
+  color: rgb(51, 51, 51);
+  display: inline;
+  min-width: 400px;
+  outline: none;
+  padding: 5px;
+  width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  .modal {
+    margin-bottom: 30px;
+  }
+}

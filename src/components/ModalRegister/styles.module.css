@@ -1,0 +1,266 @@
+.containerRegister {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerX {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: #e4e6e9;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerX:hover {
+  background-color: #d8dadf;
+}
+
+.containerRegister h3 {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "LucidaGrande";
+}
+
+.containerRegister p {
+  font-size: 14px;
+  color: gray;
+  font-family: "LucidaGrande";
+  margin-bottom: 15px;
+}
+
+.form {
+  margin-top: 15px;
+}
+
+.containerInput {
+  display: flex;
+  background: #f5f6f7;
+  width: 100%;
+  border: 1px solid rgb(219, 218, 218);
+  border-radius: 5px;
+  margin-bottom: 19px;
+  height: 42px;
+  padding: 11px 13px 11px 13px;
+}
+
+.containerInput2 {
+  gap: 20px;
+  display: flex;
+  width: 100%;
+  margin-bottom: 19px;
+  height: 42px;
+}
+
+.input2 {
+  font-family: "LucidaGrande";
+  width: 100%;
+  background-color: #f5f6f7;
+  border: 1px solid rgb(219, 218, 218);
+  padding-left: 11px;
+  border-radius: 5px;
+  color: rgba(154, 154, 154, 1);
+}
+
+.input {
+  font-family: "LucidaGrande";
+  width: 100%;
+  background-color: #f5f6f7;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(154, 154, 154, 1);
+  font-family: "LucidaGrande";
+  font-size: 15px;
+}
+
+.cookies p {
+  font-family: "LucidaGrande";
+  font-size: 11px;
+  color: gray;
+}
+
+.containerButton {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.containerButton button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(193, 193, 193, 1);
+  border-radius: 5px;
+  border: none;
+  height: 42px;
+  width: auto;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  font-family: "LucidaGrande";
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #00a400;
+}
+
+.containerButton button:hover {
+  background-color: #0b940b;
+}
+
+.containerRegister b {
+  color: #385898;
+}
+
+.Error {
+  text-align: center;
+  font-family: "LucidaGrande";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .containerRegister {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .containerRegister h3 {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "LucidaGrande";
+  }
+
+  .containerRegister p {
+    font-size: 14px;
+    color: gray;
+    font-family: "LucidaGrande";
+    margin-bottom: 15px;
+  }
+
+  .form {
+    margin-top: 15px;
+  }
+
+  .containerInput {
+    display: flex;
+    background: #f5f6f7;
+    width: 100%;
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 5px;
+    margin-bottom: 19px;
+    height: 42px;
+    padding: 11px 13px 11px 13px;
+  }
+
+  .containerInput2 {
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 19px;
+    height: 42px;
+  }
+
+  .input2 {
+    font-family: "LucidaGrande";
+    width: 100%;
+    background-color: #f5f6f7;
+    border: 1px solid rgb(219, 218, 218);
+    padding-left: 11px;
+    border-radius: 5px;
+    color: rgba(154, 154, 154, 1);
+  }
+
+  .input {
+    font-family: "LucidaGrande";
+    width: 100%;
+    background-color: #f5f6f7;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  ::placeholder {
+    color: rgba(154, 154, 154, 1);
+    font-family: "LucidaGrande";
+    font-size: 15px;
+  }
+
+  .cookies p {
+    font-family: "LucidaGrande";
+    font-size: 11px;
+    color: gray;
+  }
+
+  .containerButton {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .containerButton button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(193, 193, 193, 1);
+    border-radius: 5px;
+    border: none;
+    height: 42px;
+    width: auto;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    font-family: "LucidaGrande";
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #00a400;
+  }
+
+  .containerButton button:hover {
+    background-color: #0b940b;
+  }
+
+  .containerRegister b {
+    color: #385898;
+  }
+
+  .Error {
+    text-align: center;
+    font-family: "LucidaGrande";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .containerRegister h3 {
+    font-size: 30px;
+  }
+}

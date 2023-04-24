@@ -1,0 +1,375 @@
+.publication {
+  margin-top: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 15px 15px;
+  width: 100%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.containerPerfil {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 8px;
+  justify-content: space-between;
+}
+.flex {
+  gap: 8px;
+  display: flex;
+}
+
+.containerPerfil img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.containerInfo img {
+  width: 15px;
+  height: 15px;
+}
+
+.containerInfo p {
+  font-size: 11px;
+}
+
+.containerPublic {
+  display: flex;
+  gap: 5px;
+}
+
+.containerDelete {
+  display: flex;
+  gap: 1px;
+  padding-right: 10px;
+}
+
+.containerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 37px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.containerButton:hover {
+  background-color: #f0f2f5;
+}
+
+.containerButton img {
+  height: 20px;
+  width: 20px;
+}
+
+.containerDescripcion {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.containerDescripcion p {
+  font-size: 15px;
+  line-height: 18px;
+  color: #4a4a4a;
+}
+
+.containerImgDescripcion {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  background-color: black;
+}
+
+.containerImgDescripcion img {
+  width: 90%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.containerComments {
+  width: 100%;
+}
+
+.containerSpace {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerSpace p {
+  font-size: 14px;
+  color: #65676b;
+  cursor: pointer;
+}
+
+.containerIcons {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.containerIcons p {
+  margin-left: 45px;
+  cursor: pointer;
+}
+
+.containerIcons img {
+  width: 12px;
+  height: 12px;
+}
+
+.containerImg1 {
+  position: absolute;
+  border-radius: 100px;
+  border: 2px solid white;
+  background-color: #036fe4;
+  z-index: 1;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.containerImg2 {
+  position: absolute;
+  left: 17px;
+  border-radius: 100px;
+  border: 2px solid white;
+  width: 22px;
+  height: 22px;
+  background-color: #e71e44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.containerRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.containerLike {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 5px;
+  gap: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.containerLike:hover {
+  background-color: #f0f2f5;
+}
+
+.containerLike p {
+  color: #65676b;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.containerLike img {
+  height: 22px;
+  width: 22px;
+}
+
+/* /**/
+
+.containerComen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 5px;
+  gap: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.containerComen:hover {
+  background-color: #f0f2f5;
+}
+
+.containerComen p {
+  color: #65676b;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.containerComen img {
+  height: 22px;
+  width: 22px;
+}
+
+.containerCommentTexs {
+  width: 100%;
+  margin-top: 8px;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.containerCommentTexs img {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.inputContainer {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f0f2f5;
+}
+
+.inputContainer input {
+  width: 100%;
+  font-size: 15px;
+}
+
+.inputContainer input:focus {
+  outline: none;
+}
+
+.containerSend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  margin-right: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .publication {
+    margin-top: 20px;
+  }
+  .flex {
+    gap: 8px;
+    display: flex;
+  }
+
+  .containerPerfil img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+  .containerInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .containerInfo img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .containerPublic {
+    display: flex;
+    gap: 3px;
+  }
+
+  .containerButton {
+    height: 27px;
+    width: 27px;
+  }
+
+  .containerButton h3 {
+    font-size: 12px;
+  }
+
+  .containerButton img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .containerDescripcion {
+    margin-bottom: 8px;
+  }
+
+  .containerSpace p {
+    font-size: 14px;
+  }
+
+  .containerIcons p {
+    margin-left: 42px;
+  }
+
+  .containerIcons img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .containerImg1 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .containerImg2 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .containerLike p {
+    font-size: 14px;
+  }
+
+  .containerLike img {
+    height: 18px;
+    width: 18px;
+  }
+
+  /* /**/
+
+  .containerComen p {
+    font-size: 14px;
+  }
+
+  .containerComen img {
+    height: 18px;
+    width: 18px;
+  }
+
+  .containerCommentTexs img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .inputContainer {
+    padding: 8px;
+  }
+
+  .inputContainer input {
+    font-size: 14px;
+  }
+
+  .containerSend {
+    height: 20px;
+    margin-right: 8px;
+  }
+
+  .inputContainer input::placeholder {
+    font-size: 12px;
+  }
+}

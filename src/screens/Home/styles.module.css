@@ -1,0 +1,18 @@
+.home {
+  display: grid;
+  grid-template-columns: 23% auto 23%;
+}
+
+@media screen and (max-width: 850px) {
+  .home {
+    display: grid;
+    grid-template-columns: 23% auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

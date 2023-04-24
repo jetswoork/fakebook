@@ -1,0 +1,274 @@
+.center {
+  background-color: #f0f2f5;
+  margin-top: 57px;
+  width: 100%;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerHistory {
+  margin-top: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 80%;
+  height: 293px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  padding-left: 15px;
+  margin: 5px 15px 5px 0px;
+  display: flex;
+  height: 20%;
+  gap: 10px;
+}
+
+.reels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  border-radius: 10px;
+  height: 100%;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.reels img {
+  width: 30px;
+}
+
+.history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  border-radius: 10px 10px 0px 0px;
+  height: 110%;
+  border-bottom: 3px solid #1876f2;
+  color: #1876f2;
+  cursor: pointer;
+}
+
+.history img {
+  width: 30px;
+}
+
+.reels:hover {
+  background-color: #f0f2f5;
+}
+
+.cards {
+  width: 100%;
+  padding: 7px 0px 7px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.estados {
+  padding: 5px 0px;
+  height: 100%;
+  width: 130px;
+}
+
+.estados img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  position: relative;
+  filter: brightness(0.8);
+}
+
+.nombre {
+  position: absolute;
+  width: 70px;
+  color: white;
+  top: 80%;
+  right: 34%;
+}
+
+.nombre p {
+  font-size: 13px;
+  font-family: "LucidaGrande";
+  text-align: left;
+}
+
+.perfil {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 100px;
+  border: #1876f2 4px solid;
+}
+
+.perfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+/* ////////////////////////////////*/
+
+.state {
+  height: 125px;
+  margin-top: 25px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 80%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.containerImage {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.containerInput {
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.containerInput input:focus {
+  outline: none;
+}
+
+.containerInput input {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.state img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.containerActivity {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.containerItem {
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.containerItem:hover {
+  background-color: #e4e6e9;
+}
+
+.containerItem img {
+  width: 30px;
+  height: 30px;
+}
+
+.containerPublication {
+  width: 80%;
+}
+
+.rela {
+  position: relative;
+}
+
+.abso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 37px;
+  border-radius: 100px;
+  cursor: pointer;
+  position: absolute;
+  right: 1.9rem;
+  top: 1rem;
+}
+
+.abso:hover {
+  background-color: #f0f2f5;
+}
+
+.abso img {
+  width: 15px;
+  height: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .center {
+    /* width: 100%; */
+  }
+  .containerHistory {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .state {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .containerPublication {
+    width: 100%;
+  }
+
+  .containerItem img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .history img {
+    width: 25px;
+  }
+
+  .reels img {
+    width: 25px;
+  }
+
+  .containerInput input::placeholder {
+    font-size: 12px;
+  }
+  .abso {
+    height: 30px;
+    width: 30px;
+    right: 1.6rem;
+    top: 0.9rem;
+  }
+
+  .abso img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .containerItem h3 {
+    display: none;
+  }
+}
